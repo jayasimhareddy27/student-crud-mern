@@ -25,7 +25,7 @@ app.use('/studentUrl',StudentsRoutes);
 
 
 const PORT =process.env.PORT||5000;
-const CONNECTION_URL=process.env.mongo_url||"mongodb+srv://root:root@cluster0.tdtrc.mongodb.net/student-details?retryWrites=true&w=majority";
+const CONNECTION_URL=process.env.mongo_url;
 mongoose.connect( CONNECTION_URL,{ useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 })
     .then(()=>app.listen(PORT,()=>{console.log(`listing to port ${PORT}`);}))
     .catch(()=>console.log("error"));
