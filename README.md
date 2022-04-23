@@ -9,3 +9,5 @@ This is full stack with mern stack tech
 2)After submiting the form to server and updating the table:
 ![Screenshot (12)](https://user-images.githubusercontent.com/63945319/164914776-bf20d514-cc6f-4d94-a441-6565b85fe27a.png)
 
+3)Deleting the entry in table and mobile responsive view:
+![Screenshot (15)](https://user-images.githubusercontent.com/63945319/164915045-ac360994-0aa1-48dc-bc78-848a82c56c31.png)
